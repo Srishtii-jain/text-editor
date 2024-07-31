@@ -13,13 +13,13 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+	flex-direction: column;
 }
 
 h1 {
     color: #e09292;
     text-align: center;
     margin-bottom: 20px;
-	position: fixed;
 	top: 0px;
 	left: 0px;
 }
@@ -150,3 +150,4 @@ a {
 
 .user-guide ol, .user-guide ul {
     margin-left: 20px;
+}
